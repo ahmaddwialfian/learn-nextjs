@@ -1,15 +1,22 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>NextJS</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
+      </h1>
+      <h1 className="title">
+        Go to <a href="auth/login">Login with A href</a>
+      </h1>
+      <h1 className="title">
+        Go to <Link href="auth/login">Login with Link</Link>
       </h1>
 
       <p className="description">

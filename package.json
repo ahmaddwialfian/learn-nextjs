@@ -5,11 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "buildexport": "next build && next export",
+    "export": "next export"
   },
   "dependencies": {
+    "global": "^4.4.0",
     "next": "9.3.0",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "serve": "^11.3.0"
   }
 }
